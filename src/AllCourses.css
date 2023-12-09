@@ -1,0 +1,30 @@
+/* AllCourses.css */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.course {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.course img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.course h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.course p {
+    font-size: 14px;
+    color: #666;
+}
