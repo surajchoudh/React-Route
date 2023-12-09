@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
-import './footer.css';
 import AllCourses from './AllCourses';
 import FullStackDevelopment from './FullStackDevelopment';
 import DataScience from './DataScience';
